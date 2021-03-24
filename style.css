@@ -1,5 +1,19 @@
 body {
     min-width: 200px;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
 }
 
 .jumbotron {
